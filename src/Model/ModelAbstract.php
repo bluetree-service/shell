@@ -1,14 +1,10 @@
 <?php
-/**
- * base class for all shell scripts
- *
- * @package     Core
- * @subpackage  Shell
- * @author      chajr <chajr@bluetree.pl>
- */
+
 namespace Core\Shell\Model;
+
 use Loader;
 use Core\Blue\Model\Configuration;
+
 abstract class ModelAbstract
 {
     const HEADER = <<<EOT

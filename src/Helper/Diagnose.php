@@ -1,13 +1,7 @@
 <?php
-/**
- * check that some system parts are working properly
- * by shell and browser
- *
- * @package     Core
- * @subpackage  Shell
- * @author      chajr <chajr@bluetree.pl>
- */
-namespace Core\Shell\Helper;
+
+namespace Shell\Helper;
+
 use Core\Shell\Model\ModelAbstract;
 use Core\Blue\Model;
 use Core\Disc\Helper\Common;
@@ -15,6 +9,7 @@ use Core\Db\Helper\Mysql;
 use Loader;
 use Exception;
 use SplFileinfo;
+
 class Diagnose extends ModelAbstract
 {
     /**

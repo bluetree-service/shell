@@ -1,15 +1,10 @@
 <?php
-/**
- * allow to remove cached files
- * by shell and browser
- *
- * @package     Core
- * @subpackage  Shell
- * @author      chajr <chajr@bluetree.pl>
- */
-namespace Core\Shell\Helper;
+
+namespace Shell\Helper;
+
 use Core\Shell\Model\ModelAbstract;
 use Core\Disc\Helper\Common;
+
 class Cache extends ModelAbstract
 {
     const NONE              = 0;
